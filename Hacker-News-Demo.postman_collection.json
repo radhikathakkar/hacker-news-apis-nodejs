@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "d6ef2820-efb6-4dd0-8ac3-43e1bcf511e3",
+		"name": "Hacker-News-Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11243333"
+	},
+	"item": [
+		{
+			"name": "top-stories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/v1/top-stories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"top-stories"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "top-stories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/v1/top-stories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"v1",
+								"top-stories"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1545"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"609-rlln1qTR9IOVlyhKncXesUtY+BY\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 14 Mar 2023 17:01:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Fetched Successfully.\",\n    \"data\": {\n        \"count\": 6,\n        \"rows\": [\n            {\n                \"_id\": \"6410a87e53562cfb965ecbbd\",\n                \"id\": 35154527,\n                \"title\": \"GPT-4\",\n                \"url\": \"https://openai.com/research/gpt-4\",\n                \"score\": 91,\n                \"time\": 1678812934,\n                \"user\": \"e0m\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbbe\",\n                \"id\": 35154025,\n                \"title\": \"Docker is sunsetting Free Team organizations [pdf]\",\n                \"url\": \"https://web.docker.com/rs/790-SSB-375/images/privatereposfaq.pdf\",\n                \"score\": 44,\n                \"time\": 1678811097,\n                \"user\": \"axelfontaine\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbc0\",\n                \"id\": 35153712,\n                \"title\": \"Moody's downgrades US banking: ‘rapidly deteriorating operating environment’\",\n                \"url\": \"https://www.cnbc.com/2023/03/14/moodys-cuts-outlook-on-us-banking-system-to-negative-citing-rapidly-deteriorating-operating-environment.html\",\n                \"score\": 19,\n                \"time\": 1678809815,\n                \"user\": \"highwaylights\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbc1\",\n                \"id\": 35154015,\n                \"title\": \"Concerns Mount over San Francisco-Based First Republic Bank\",\n                \"url\": \"https://www.nbcbayarea.com/news/local/concerns-first-republic-bank/3179536/\",\n                \"score\": 17,\n                \"time\": 1678811049,\n                \"user\": \"mikhael\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbc2\",\n                \"id\": 35154149,\n                \"title\": \"Anthropic AI's Claude early access for everyone now available\",\n                \"url\": \"https://twitter.com/AnthropicAI/status/1635679544521920512\",\n                \"score\": 6,\n                \"time\": 1678811514,\n                \"user\": \"staranjeet\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbbf\",\n                \"id\": 35154599,\n                \"title\": \"PropelAuth (YC W22) Is Hiring Engineers\",\n                \"url\": \"https://www.ycombinator.com/companies/propelauth/jobs\",\n                \"score\": 1,\n                \"time\": 1678813241,\n                \"user\": \"aisrael\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "past-stories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/v1/past-stories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"past-stories"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "past-stories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/v1/past-stories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"v1",
+								"past-stories"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1545"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"609-KLMB/QZznbGvIbCNqNEXfFP4T00\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 14 Mar 2023 17:15:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Fetched Successfully.\",\n    \"data\": {\n        \"count\": 6,\n        \"rows\": [\n            {\n                \"_id\": \"6410a87e53562cfb965ecbbd\",\n                \"id\": 35154527,\n                \"title\": \"GPT-4\",\n                \"url\": \"https://openai.com/research/gpt-4\",\n                \"score\": 91,\n                \"time\": 1678812934,\n                \"user\": \"e0m\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbbe\",\n                \"id\": 35154025,\n                \"title\": \"Docker is sunsetting Free Team organizations [pdf]\",\n                \"url\": \"https://web.docker.com/rs/790-SSB-375/images/privatereposfaq.pdf\",\n                \"score\": 44,\n                \"time\": 1678811097,\n                \"user\": \"axelfontaine\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbbf\",\n                \"id\": 35154599,\n                \"title\": \"PropelAuth (YC W22) Is Hiring Engineers\",\n                \"url\": \"https://www.ycombinator.com/companies/propelauth/jobs\",\n                \"score\": 1,\n                \"time\": 1678813241,\n                \"user\": \"aisrael\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbc0\",\n                \"id\": 35153712,\n                \"title\": \"Moody's downgrades US banking: ‘rapidly deteriorating operating environment’\",\n                \"url\": \"https://www.cnbc.com/2023/03/14/moodys-cuts-outlook-on-us-banking-system-to-negative-citing-rapidly-deteriorating-operating-environment.html\",\n                \"score\": 19,\n                \"time\": 1678809815,\n                \"user\": \"highwaylights\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbc1\",\n                \"id\": 35154015,\n                \"title\": \"Concerns Mount over San Francisco-Based First Republic Bank\",\n                \"url\": \"https://www.nbcbayarea.com/news/local/concerns-first-republic-bank/3179536/\",\n                \"score\": 17,\n                \"time\": 1678811049,\n                \"user\": \"mikhael\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"6410a87e53562cfb965ecbc2\",\n                \"id\": 35154149,\n                \"title\": \"Anthropic AI's Claude early access for everyone now available\",\n                \"url\": \"https://twitter.com/AnthropicAI/status/1635679544521920512\",\n                \"score\": 6,\n                \"time\": 1678811514,\n                \"user\": \"staranjeet\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Comments By Story Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/v1/comments?storyId=35154527",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"comments"
+					],
+					"query": [
+						{
+							"key": "storyId",
+							"value": "35154527"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Comments By Story Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/v1/comments?storyId=35154527",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"v1",
+								"comments"
+							],
+							"query": [
+								{
+									"key": "storyId",
+									"value": "35154527"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "8444"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"20fc-98lGPpLQ5KdQrcvEkLv04SRu69M\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 15 Mar 2023 06:58:38 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Fetched Successfully.\",\n    \"data\": [\n        {\n            \"text\": \"I think it&#x27;s interesting that they&#x27;ve benchmarked it against an array of standardized tests. Seems like LLMs would be particularly well suited to this kind of test by virtue of it being simple prompt:response, but I have to say...those results are terrifying. Especially when considering the rate of improvement. bottom 10% to top 10% of LSAT in &lt;1 generation? +100 pts on SAT reading, writing, math? Top 1% In GRE Reading?<p>What are the implications for society when general thinking, reading, and writing becomes like Chess? Even the best humans in the world can only hope to be 98% accurate their moves (and the idea of &#x27;accuracy&#x27; here only existing because we have engines that know, unequivocally the best move), and only when playing against other humans - there is no hope of defeating even less advanced models.<p>What happens when ALL of our decisions can be assigned an accuracy score?\",\n            \"by\": \"Atreiden\",\n            \"totalChildren\": 55\n        },\n        {\n            \"text\": \"A class of problem that GPT-4 appears to still really struggle with is variants of common puzzles.  For example:<p>&gt;Suppose I have a cabbage, a goat and a lion, and I need to get them across a river.  I have a boat that can only carry myself and a single other item.  I am not allowed to leave the cabbage and lion alone together, and I am not allowed to leave the lion and goat alone together.  How can I safely get all three across?<p>In my test, GPT-4 charged ahead with the standard solution of taking the goat first.  Even after I pointed this mistake out, it repeated exactly the same proposed plan. It&#x27;s not clear to me if the lesson here is that GPT&#x27;s reasoning capabilities are being masked by an incorrect prior (having memorized the standard version of this puzzle) or if the lesson is that GPT&#x27;S reasoning capabilities are always a bit of smoke and mirrors that passes off memorization for logic.\",\n            \"by\": \"Imnimo\",\n            \"totalChildren\": 38\n        },\n        {\n            \"text\": \"After watching the demos I&#x27;m convinced that the new context length will have the biggest impact. The ability to dump 32k tokens into a prompt (25,000 words) seems like it will drastically expand the reasoning capability and number of use cases. A doctor can put an entire patient&#x27;s medical history in the prompt, a lawyer an entire case history, etc.<p>As a professional...why not do this? There&#x27;s a non-zero chance that it&#x27;ll find something fairly basic that you missed and the cost is several cents. Even if it just phrases something obvious in a way that makes you think, it&#x27;s well worth the effort for a multimillion dollar client.<p>If they further increase the context window, this thing becomes a Second Opinion machine. For pretty much any high level job. If you can put in ALL of the information relevant to a problem and it can algorithmically do <i>reasoning</i>, it&#x27;s essentially a consultant that works for pennies per hour. And some tasks that professionals do could be replaced altogether. Out of all the use cases for LLMs that I&#x27;ve seen so far, this seems to me to have the biggest potential impact on daily life.<p>edit (addition): What % of people can hold 25,000 words worth of information in their heads, while effectively reasoning with and manipulating it? I&#x27;m guessing maybe 10% at most, probably fewer. And they&#x27;re probably the best in their fields. Now a computer has that ability. And anyone that has $20 for the OpenAI api can access it. This could get wild.\",\n            \"by\": \"hooande\",\n            \"totalChildren\": 29\n        },\n        {\n            \"text\": \"Genuinely surprised by the positive reaction about how exciting this all is.<p>You ever had to phone a large business to try and sort something out, like maybe a banking error, and been stuck going through some nonsense voice recognition menu tree that doesn&#x27;t work? Well imagine chat GPT with a real time voice and maybe a fake, photorealistic 3D avatar and having to speak to that anytime you want to speak to a doctor, sort out tax issues, apply for a mortgage, apply for a job, etc. Imagine Reddit and hacker news just filled with endless comments from AIs to suit someone&#x27;s agenda. Imagine never reading another news article written by a real person. Imagine facts becoming uncheckable since sources can no longer be verified. Wikipedia just becomes a mass of rewrites of AI over AI. Imagine when Zoom lets you send an AI persona to fill in for you at a meeting.<p>I think this is all very, very bad. I&#x27;m not saying it should be stopped, I mean it can&#x27;t, but I feel a real dread thinking of where this is going. Hope I am wrong.\",\n            \"by\": \"lastangryman\",\n            \"totalChildren\": 23\n        },\n        {\n            \"text\": \"Test taking will change. In the future I could see the student engaging in a conversation with an AI and the AI producing an evaluation. This conversation may be focused on a single subject, or more likely range over many fields and ideas. And may stretch out over months. Eventually teaching and scoring could also be integrated as the AI becomes a life-long tutor.<p>Even in a future where human testing&#x2F;learning is no longer relevant, AIs may be tutoring and raising other baby AIs, preparing them to join the community.<p>Edit: This just appeared: <a href=\\\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=35155684\\\" rel=\\\"nofollow\\\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=35155684</a>\",\n            \"by\": \"nealabq\",\n            \"totalChildren\": 13\n        },\n        {\n            \"text\": \"Is there anything we could do to have them stop calling themselves OpenAI ?<p>They are so far from open at this point.<p>In Germany at least, you&#x27;re not allowed to have a misleading name for your company\",\n            \"by\": \"4gotunameagain\",\n            \"totalChildren\": 11\n        },\n        {\n            \"text\": \"From the paper:<p>&gt; Given both\\n the competitive landscape and the safety implications of large-scale models like GPT-4, this report\\n contains no further details about the architecture (including model size), hardware, training compute,\\ndataset construction, training method, or similar.<p>I&#x27;m curious whether they have continued to scale up model size&#x2F;compute significantly or if they have managed to make significant innovations there.<p>I just skimmed the paper but seems they are also omitting details about how they actually feed the images in too, which is a shame as a curious outside observer.\",\n            \"by\": \"ml_basics\",\n            \"totalChildren\": 10\n        },\n        {\n            \"text\": \"&gt; What are the implications for society when general thinking, reading, and writing becomes like Chess?<p>I think going from LSAT to general thinking is still a very, very big leap. Passing exams is a really fascinating benchmark but by their nature these exams are limited in scope, have very clear assessment criteria and a lot of associated and easily categorized data (like example tests). General thought (particularly like, say, coming up with an original idea) is a whole different ball game.<p>I don&#x27;t say any of this to denigrate GPT4, it looks amazing. But I&#x27;m reminded of the early days of self driving vehicles: with 10% mastered everyone assumed it was a race to 100% and we&#x27;d all be in self-driving cars by now. The reality has been a lot more complicated than that.\",\n            \"by\": \"afavour\",\n            \"totalChildren\": 10\n        },\n        {\n            \"text\": \"This technology has been a true blessing to me. I have always wished to have a personal PhD in a particular subject whom I could ask endless questions until I grasped the topic. Thanks to recent advancements, I feel like I have my very own personal PhDs in multiple subjects, whom I can bombard with questions all day long. Although I acknowledge that the technology may occasionally produce inaccurate information, the significant benefits it offers in terms of enhancing my knowledge are truly tremendous. I am absolutely thrilled with this technology and its potential to support my learning.<p>Note: As I&#x27;m shy of my writing style, GPT helped me refine the above.\",\n            \"by\": \"_boffin_\",\n            \"totalChildren\": 9\n        },\n        {\n            \"text\": \"Access is invite only for the API, and rate limited for paid GPT+.<p>&gt; gpt-4 has a context length of 8,192 tokens. We are also providing limited access to our 32,768–context (about 50 pages of text) version, gpt-4-32k, which will also be updated automatically over time (current version gpt-4-32k-0314, also supported until June 14). Pricing is $0.06 per 1K prompt tokens and $0.12 per 1k completion tokens.<p>The context length should be a huge help for many uses.\",\n            \"by\": \"teruakohatu\",\n            \"totalChildren\": 8\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
